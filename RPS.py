@@ -53,6 +53,14 @@ else:
     print("Invalid move")
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the computer's move
-
+print("COMPUTERS MOVE: ")
+if comp_move == "rock":
+    print(rock)
+elif comp_move == "paper":
+    print(paper)
+elif comp_move == "scissors":
+    print(scissors)
+else:
+    print("Invalid move")
 
 # Figure out who wins and print the result!
