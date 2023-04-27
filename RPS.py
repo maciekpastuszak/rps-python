@@ -64,3 +64,13 @@ else:
     print("Invalid move")
 
 # Figure out who wins and print the result!
+if comp_move == player_move:
+    print("IT'S A TIE!")
+elif player_move == "rock" and comp_move == "scissors":
+    print("YOU WIN!!!")
+elif player_move == "paper" and comp_move == "rock":
+    print("YOU WIN!!!")
+elif player_move == "scissors" and comp_move == "paper":
+    print("YOU WIN!!!")
+else:
+    print("YOU LOSE!!!")
