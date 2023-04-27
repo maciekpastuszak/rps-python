@@ -39,10 +39,18 @@ else:
     print("Not a valid number")
 
 # Ask a user to enter their move
-
+player_move = input("Enter your move (rock, paper or scissors)").lower()
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the player's move
-
+print("YOUR MOVE: ")
+if player_move == "rock":
+    print(rock)
+elif player_move == "paper":
+    print(paper)
+elif player_move == "scissors":
+    print(scissors)
+else:
+    print("Invalid move")
 
 # Print the rock, paper, or scissors ASCII art that corresponds to the computer's move
 
