@@ -29,7 +29,14 @@ scissors = """
 num = randint(1,3)
 
 # Turn that random number into the computer's RPS move
-
+if num == 1:
+    comp_move = "rock"
+elif num == 2:
+    comp_move = "paper"
+elif num == 3:
+    comp_move = "scissors"
+else:
+    print("Not a valid number")
 
 # Ask a user to enter their move
 
